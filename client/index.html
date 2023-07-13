@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./estilos.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <div class="title">
+    <h1>Formulario</h1>
+  </div>
+
+  <div class="container">
+    <div class="div-form">
+      <form id="formulario">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" placeholder="Agregar nombre...">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Agregar email...">
+
+        <label for="phone">Teléfono</label>
+        <input type="text" id="phone" placeholder="Agregar teléfono...">
+
+        <button type="submit" id="btnAdd">Agregar</button>
+      </form>
+    </div>
+  
+    <div class="div-list">
+      <h2>Listado de empleados</h2>
+      <div class="list">
+
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
